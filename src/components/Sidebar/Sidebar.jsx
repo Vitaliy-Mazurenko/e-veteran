@@ -6,7 +6,7 @@ import Collapse from "@mui/material/Collapse";
 import message from "../../assets/message.svg";
 import contacts from "../../assets/contacts.svg";
 import analitycs from "../../assets/analitycs.svg";
-import arrow from "../../assets/arrow.svg";
+import Arrow from "../../assets/arrow.svg?react";
 
 function Sidebar() {
   const [open, setOpen] = useState(true);
@@ -24,7 +24,7 @@ function Sidebar() {
           Чат-бот
         </span>
         <div className={style.dropdownBtn}>
-          <img src={arrow} className={`${open ? style.rotate : ""}`} alt="arrow" />
+          <img src={Arrow} className={`${open ? style.rotate : ""}`} alt="arrow" />
         </div>
       </div>
       <Collapse
