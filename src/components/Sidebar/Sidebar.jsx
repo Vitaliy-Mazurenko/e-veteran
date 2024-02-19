@@ -6,7 +6,7 @@ import Collapse from "@mui/material/Collapse";
 import message from "../../assets/message.svg";
 import contacts from "../../assets/contacts.svg";
 import analitycs from "../../assets/analitycs.svg";
-import Arrow from "../../assets/arrow.svg?react";
+import Arrow from "../../assets/arrow.svg";
 
 function Sidebar() {
   const [open, setOpen] = useState(true);
