@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "e-Ukraine";
+  src: local("e-Ukraine"),
+    url("./fonts/e-Ukraine/e-Ukraine-Light.otf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "e-Ukraine";
+  src: local("e-Ukraine"),
+    url("./fonts/e-Ukraine/e-Ukraine-Bold.otf") format("truetype");
+  font-weight: bold;
+}
+* {
+  margin: 0;
+  border: 0;
+  text-decoration: none;
+  padding: 0;
+  font-family: e-Ukraine, sans-serif;
+  box-sizing: border-box;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+/*  */
+.wrapper {
+  padding: 5rem 0 0 18.75rem;
+}
+
+.content {
+  max-height: calc(100vh - 5rem);
+  padding: 3.25rem 5.25rem 3.25rem 5.25rem;
+  overflow-y: auto;
+}
+
+
+.active {
+  background-color: #283e59;
+}
+.active:hover {
+  background-color: #283e59;
+}

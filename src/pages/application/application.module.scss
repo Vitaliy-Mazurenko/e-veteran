@@ -1,0 +1,28 @@
+.mailing {
+  height: 200vh;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2.5rem;
+}
+
+.title {
+  font-size: 1.5rem;
+}
+
+
+// table
+.table {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 0.25rem;
+}
+.head {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 1rem 2rem;
+}
+
+
+
+

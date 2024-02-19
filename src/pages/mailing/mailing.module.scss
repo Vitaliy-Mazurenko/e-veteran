@@ -1,0 +1,92 @@
+.mailing {
+  height: 200vh;
+  animation: start .5s linear 1;
+  @keyframes start {
+    from{
+      opacity: 0;
+    }
+    to{
+      opacity: 1;
+    }
+  }
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2.5rem;
+}
+
+.title {
+  font-size: 1.5rem;
+}
+
+.newMailing {
+  color: #fff;
+  padding: 16px 36px;
+  border-radius: var(--borderRadius, 0.25rem);
+  background: #000;
+
+  &:hover {
+    background: #000000e9;
+    cursor: pointer;
+  }
+}
+
+// table
+.table {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 0.25rem;
+}
+.head {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 1rem 2rem;
+}
+.default {
+  display: flex;
+  justify-content: space-between;
+}
+.searchBar {
+  width: 30%;
+  display: flex;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  .searchBtn {
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  .searchIcon {
+    height: 2rem;
+  }
+  .searchInput {
+    padding-left: 0.5rem;
+    outline: none;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    color: #626262;
+    font-size: 1rem;
+    &:focus {
+      &::placeholder {
+        color: transparent;
+      }
+    }
+    &::placeholder {
+      color: rgba(0, 0, 0, 0.3);
+    }
+  }
+}
+
+// list
+
+.listItem {
+  display: flex;
+
+  .check {
+    padding: 14px;
+  }
+  .date {
+    display: flex;
+    justify-content: space-between;
+  }
+}

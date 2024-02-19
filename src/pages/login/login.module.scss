@@ -1,0 +1,69 @@
+.login {
+  flex: 1;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../../assets/login.svg');
+  background-position: center;
+  animation: start .5s linear 1;
+  @keyframes start {
+    from{
+      opacity: 0;
+    }
+    to{
+      opacity: 1;
+    }
+  }
+  background-size: cover;
+}
+
+.header {
+  background-image: url('../../assets/loginHeader.svg');
+  background-position: center center;
+  background-size: cover;
+  width: 214px;
+  height: 96px;
+  opacity: 0.8;
+  margin: auto auto 0 auto;
+}
+
+
+.eForm {
+  width: 45%;
+  max-width: 550px;
+  height: 356px;
+  margin: 70px auto auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+}
+
+.textForm {
+  text-align: left !important;
+  display: inline-block;
+}
+
+.divider {
+  padding-bottom: 10px;
+}
+
+.groupForm {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 90%;
+}
+
+.buttonLogin {
+  margin-top: 15px !important;
+  margin-bottom: 30px !important;
+  background-color: black !important;
+  width: 86%;
+  color: white;
+}
