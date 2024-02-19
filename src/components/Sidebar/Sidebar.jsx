@@ -24,7 +24,7 @@ function Sidebar() {
           Чат-бот
         </span>
         <div className={style.dropdownBtn}>
-          <img className={`${open ? style.rotate : ""}`} src={arrow} alt="" />
+          <img src={arrow} className={`${open ? style.rotate : ""}`} alt="arrow" />
         </div>
       </div>
       <Collapse
